@@ -1,0 +1,31 @@
+body{
+    direction: flex;
+    text-align: center;
+    justify-content: center;
+    background-color: rgb(56, 163, 163);
+}
+.bg{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 20px;
+}
+.tr2{
+    padding: 9px;
+
+}
+.ganta{
+    background-color: rgb(56, 163, 163);
+    margin-top: 150px;
+    
+}
+.btn1{
+    background-color: rgb(21, 194, 242);
+    color: azure;
+    height: 50px;
+    width: 50px;
+}
+#result{
+    width:250px;
+    height: 30px;
+}
