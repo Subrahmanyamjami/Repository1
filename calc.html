@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<link rel="stylesheet" href="calc.css">
+<body>
+  <div class="ganta">  
+    <h1>CALCULAT0R</h1>
+    <input type="text" id="result" readonly>
+ 
+    <div class="bg">
+        
+        <table>
+    <tr class="tr1">
+        <td><button class="btn1" onclick="appendNumber(7)">7</button></td>
+        <td><button class="btn1" onclick="appendNumber(8)">8</button></td>
+        <td><button class="btn1" onclick="appendNumber(9)">9</button></td>
+        <td><button class="btn1" onclick="setOperator('+')">+</button></td>
+    </tr>
+    <tr >
+        <td class="tr2"><button class="btn1" onclick="appendNumber(4)">4</button></td>
+        <td class="tr2"><button class="btn1" onclick="appendNumber(5)">5</button></td>
+        <td class="tr2"><button class="btn1" onclick="appendNumber(6)">6</button></td>
+        <td class="tr2"><button class="btn1" onclick="setOperator('-')">-</button></td>
+    </tr>
+    <tr>
+    
+        <td><button class="btn1" onclick="appendNumber(3)">3</button></td>
+        <td><button  class="btn1" onclick="appendNumber(2)">2</button></td>
+        <td><button  class="btn1" onclick="appendNumber(1)">1</button></td>
+        <td><button class="btn1" onclick="setOperator('*')">*</button></td>
+    </tr>
+    <tr>
+        <td class="tr2"><button  class="btn1" onclick="appendNumber(0)">0</button></td>
+        <td class="tr2"><button class="btn1" onclick="clearresult('c')">c</button></td>
+        <td class="tr2"><button class="btn1" onclick="calculate('=')">=</button></td>
+        <td </td><button class="btn1" onclick="setOperator('/')">/</button></td>
+    </tr>
+        </table>   
+ 
+    </div>
+
+  </div>
+</body>
+
+<script src="calc.js"></script>
+</html>
